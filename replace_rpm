@@ -1,4 +1,4 @@
 #!/bin/bash
 
-rpm -e --nodeps $(rpm -q ${1})
-rpm -i /tmp/${1}*.rpm
+sudo rpm -e --nodeps $(rpm -q ${1})
+sudo rpm -i /tmp/${1}*.rpm
